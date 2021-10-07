@@ -53,7 +53,7 @@ public class ListViewActivity extends AppCompatActivity {
     private MediaPlayer mediaPlayer;
 
     // etc.
-    private long backPressedTime = 0;
+    private long backPressedTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
